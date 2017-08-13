@@ -6,10 +6,11 @@ import styled, { keyframes } from 'styled-components';
 
 const rotatingAnimation = keyframes`
  
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+    
+    
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
 `;
 
 const RotatingLetter = styled.div`
