@@ -5,7 +5,9 @@ import TopNavBar from '../src/Components/TopNavBar/'
 
 const styles = {
   'hrImaginationWrapper' : {
-    color: 'green'
+    color: 'green',
+    fontSize: 32, 
+    textAlign: 'center'
   }
 }
 
