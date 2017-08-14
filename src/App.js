@@ -18,7 +18,7 @@ const RotatingLetter = styled.div`
   color: ${(props) => props.color ? `solid 9px ${props.color}` : 'solid 9px red'}; 
   height: 60px;
   width: 60px;  
-  animation: ${(props) => props.blinkRate ? `${rotatingAnimation} ${props.blinkRate} linear infinite` : `${rotatingAnimation} 1.5s linear infinite`};
+  animation: ${(props) => props.blinkRate ? `${rotatingAnimation} ${props.blinkRate} normal forwards` : `${rotatingAnimation} 1.5s linear 2`};
 `;
 
 // animation: ${(props) => props.blinkRate ? `${pulseAnimation} ${props.blinkRate} linear infinite` : `${pulseAnimation} 1.5s linear infinite`};
@@ -33,8 +33,22 @@ const styles = {
   'hrImaginationWrapper' : {
     color: 'green',
     fontSize: 32, 
-    textAlign: 'center'
+    textAlign: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 600,
   },
+  musicText: {
+    color: 'purple',
+    fontSize: 32, 
+    textAlign: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 200,
+    backgroundColor: 'rgba(230, 230, 230, 0.5)',
+  }
 }
 
 class App extends Component {
@@ -42,10 +56,35 @@ class App extends Component {
     return (
       <div className="App">
         <div style={styles.hrImaginationWrapper} className='col-xs-12'> 
-          <div style={styles.hrImaginationText} className='col-xs-12'> HR Imagination </div>
-          <RotatingLetter> H </RotatingLetter>
-
+          <div style={styles.hrImaginationText} className='col-xs-12'> 
+            <RotatingLetter> H </RotatingLetter>
+            <RotatingLetter> R </RotatingLetter>
+            <RotatingLetter> &nbsp; </RotatingLetter>
+            <RotatingLetter> i </RotatingLetter>
+            <RotatingLetter> m </RotatingLetter>
+            <RotatingLetter> a </RotatingLetter>
+            <RotatingLetter> g </RotatingLetter>
+            <RotatingLetter> i </RotatingLetter>
+            <RotatingLetter> n </RotatingLetter>
+            <RotatingLetter> a </RotatingLetter>
+            <RotatingLetter> t </RotatingLetter>
+            <RotatingLetter> i </RotatingLetter>
+            <RotatingLetter> o </RotatingLetter>
+            <RotatingLetter> n </RotatingLetter>          
+          </div>
         </div>
+
+        <div style={styles.musicText} className='col-xs-12'> 
+          <div> music </div>
+        </div>
+
+        <div style={styles.songTitle} className='col-xs-12'> 
+          <div> no cameras </div>
+        </div>
+
+
+
+
       </div>
     );
   }
