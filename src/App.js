@@ -13,6 +13,8 @@ const rotatingAnimation = keyframes`
 }
 `;
 
+// need to modularize code and add in music piece 
+
 const RotatingLetter = styled.div`
   display: inline-block;
   color: ${(props) => props.color ? `solid 9px ${props.color}` : 'solid 9px red'}; 
@@ -22,10 +24,6 @@ const RotatingLetter = styled.div`
 `;
 
 // animation: ${(props) => props.blinkRate ? `${pulseAnimation} ${props.blinkRate} linear infinite` : `${pulseAnimation} 1.5s linear infinite`};
-
-
-
-
 
 //App Component
 
