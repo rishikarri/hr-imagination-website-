@@ -14,6 +14,7 @@ const rotatingAnimation = keyframes`
 `;
 
 // need to modularize code and add in music piece 
+// need to add in eslint 
 
 const RotatingLetter = styled.div`
   display: inline-block;
