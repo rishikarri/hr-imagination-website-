@@ -5,16 +5,14 @@ import TopNavBar from '../src/Components/TopNavBar/'
 import styled, { keyframes } from 'styled-components';
 
 const rotatingAnimation = keyframes`
- 
-    
-    
+
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
 `;
 
 // need to modularize code and add in music piece 
-// need to add in eslint 
+// need to add in eslint - use rallycoding example 
 
 const RotatingLetter = styled.div`
   display: inline-block;
