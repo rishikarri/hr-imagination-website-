@@ -13,6 +13,8 @@ const rotatingAnimation = keyframes`
 
 // need to modularize code and add in music piece 
 // need to add in eslint - use rallycoding example 
+//also should add react helmet 
+
 
 const RotatingLetter = styled.div`
   display: inline-block;
