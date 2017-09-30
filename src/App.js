@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import TopNavBar from '../src/Components/TopNavBar/'
 import styled, { keyframes } from 'styled-components';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import '../no'
 
 const rotatingAnimation = keyframes`
 
@@ -30,13 +32,16 @@ const RotatingLetter = styled.div`
 
 const styles = {
   'hrImaginationWrapper' : {
+             
+  },
+  hrImaginationText: {
     color: 'green',
-    fontSize: 32, 
+    fontSize: 32,
+    height: 600,
     textAlign: 'center',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: 600,
   },
   musicText: {
     color: 'purple',
@@ -47,14 +52,33 @@ const styles = {
     alignItems: 'center',
     height: 200,
     backgroundColor: 'rgba(230, 230, 230, 0.5)',
-  }
+  },
+
+  songTitle: {
+    fontSize: 20,
+    color: 'green',
+    display: 'block', 
+    textAlign: 'center',
+    // display: 'flex',
+    // justifyContent: 'center',
+    alignItems: 'center',
+    height: 100,
+  },
+  summary: {
+    textAlign: 'center',
+    padding: 0,
+  },
+
+  sound: {
+    textAlign: 'center',
+  },
 }
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div style={styles.hrImaginationWrapper} className='col-xs-12'> 
+        <div style={styles.hrImaginationWrapper} className='row'> 
           <div style={styles.hrImaginationText} className='col-xs-12'> 
             <RotatingLetter> H </RotatingLetter>
             <RotatingLetter> R </RotatingLetter>
@@ -73,13 +97,26 @@ class App extends Component {
           </div>
         </div>
 
-        <div style={styles.musicText} className='col-xs-12'> 
-          <div> music </div>
+        <div className='row' style={styles.musicText}> 
+          <div className='col-xs-12'> music </div>          
         </div>
 
-        <div style={styles.songTitle} className='col-xs-12'> 
-          <div> no cameras </div>
+        <div className='row' style={styles.songTitle} className='col-xs-12'> 
+          <div className='col-xs-12'> no cameras </div>
         </div>
+
+        <div className='row'>
+          <div style={styles.summary} className='col-xs-6'> 
+            <div>Inspiration</div>
+            <blockquote> no cameras is inspired by “ride with me” / Nelly. We interpreted “ride with me” as as follows: Nelly is explaining how his life changed after he became rich and famous - he loves certain perks (like having a nice Mercedes) but overall doesn’t enjoy the fact that people are treating him differently because of his money. So we took this concept and told the story about a random man who is newly famous and is now getting treated differently (girls are chasing him for his money, his friends are fake etc.). Our character realizes that all he wants to do is flee away from the cameras, hangout with a simple girl, and grind in the studio until he can’t anymore.</blockquote>
+          </div>
+
+          <div style={styles.sound} className='col-xs-6'> 
+            <div>Sound</div>
+          </div>
+        </div>
+
+        
 
 
 
