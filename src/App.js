@@ -4,8 +4,11 @@ import './App.css';
 import TopNavBar from '../src/Components/TopNavBar/'
 import styled, { keyframes } from 'styled-components';
 import { RotatingGreeter } from '../src/Components/RotatingGreeting/';
+import FaHeadphones from 'react-icons/lib/fa/headphones';
+
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 // import '../no'
 
 const rotatingAnimation = keyframes`
@@ -18,6 +21,8 @@ const rotatingAnimation = keyframes`
 // need to modularize code and add in music piece 
 // need to add in eslint - use rallycoding example 
 //also should add react helmet 
+
+// react-icons/lib/fa/headphones
 
 
 const RotatingLetter = styled.div`
@@ -45,6 +50,12 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
   },
+  songCard: {
+    borderColor: 'black',
+    borderWidth: 2,
+    borderStyle: 'solid',
+    marginTop: 30,
+  },
   musicText: {
     color: 'purple',
     fontSize: 32, 
@@ -56,8 +67,12 @@ const styles = {
     backgroundColor: 'rgba(230, 230, 230, 0.5)',
   },
 
-  songTitle: {
-    fontSize: 20,
+  songTitle: {    
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 30,
+    fontSize: 30,
     color: 'green',
     display: 'block', 
     textAlign: 'center',
@@ -77,7 +92,8 @@ const styles = {
 }
 
 const listenButtonStyle = {
-  color: 'purple',
+  color: 'white',
+  hoverColor: 'blue',
   fontSize: 32, 
   textAlign: 'center',
   display: 'flex',
@@ -86,7 +102,11 @@ const listenButtonStyle = {
   height: 160,
   width: 160,
   marginTop: 40,
-  backgroundColor: 'rgba(230, 230, 230, 0.5)',
+  borderColor: 'black',
+  borderWidth: 2,
+  borderStyle: 'solid',
+  borderRadius: 4,
+  backgroundColor: 'black',
 
 }
 
@@ -101,7 +121,14 @@ const createAudioFile = (hrefToUse) => {
 
   return ( 
     <div style={listenButtonContainerStyle}>
-      <div> <button className="col-xs-12" style={listenButtonStyle}> <a href={hrefToUse} target="_blank">Listen</a> </button> </div>
+      <div> 
+        <a style={listenButtonStyle} href={hrefToUse} target="_blank">
+
+          <div>Listen &nbsp;</div>
+          <FaHeadphones />
+        </a> 
+
+      </div>
     </div>
     )
 }
@@ -114,23 +141,31 @@ class App extends Component {
 
         <RotatingGreeter />
 
+
         <div className='row' style={styles.musicText}> 
           <div className='col-xs-12'> music </div>          
         </div>
 
-        <div className='row' style={styles.songTitle} className='col-xs-12'> 
-          <div className='col-xs-12'> no cameras </div>
+        <div className="row" style={styles.songCard} className='col-xs-12'>
+          <div className='row' className='col-xs-12'> 
+            <div style={styles.songTitle} className='col-xs-12'> no cameras </div>
+          </div>
+
+          <div className='row'>
+            <div style={styles.summary} className='col-xs-12 col-md-6'> 
+              <div>Inspiration</div>
+              <blockquote> no cameras is inspired by “ride with me” / Nelly. We interpreted “ride with me” as as follows: Nelly is explaining how his life changed after he became rich and famous - he loves certain perks (like having a nice Mercedes) but overall doesn’t enjoy the fact that people are treating him differently because of his money. So we took this concept and told the story about a random man who is newly famous and is now getting treated differently (girls are chasing him for his money, his friends are fake etc.). Our character realizes that all he wants to do is flee away from the cameras, hangout with a simple girl, and grind in the studio until he can’t anymore.</blockquote>            
+            </div>
+
+            <div style={styles.sound} className='col-xs-12 col-md-6'> 
+              {createAudioFile("https://soundcloud.com/user-44658808/no-cameras")}
+            </div>
+          </div>  
         </div>
-
-        <div className='row'>
-          <div style={styles.summary} className='col-xs-12 col-md-6'> 
-            <div>Inspiration</div>
-            <blockquote> no cameras is inspired by “ride with me” / Nelly. We interpreted “ride with me” as as follows: Nelly is explaining how his life changed after he became rich and famous - he loves certain perks (like having a nice Mercedes) but overall doesn’t enjoy the fact that people are treating him differently because of his money. So we took this concept and told the story about a random man who is newly famous and is now getting treated differently (girls are chasing him for his money, his friends are fake etc.). Our character realizes that all he wants to do is flee away from the cameras, hangout with a simple girl, and grind in the studio until he can’t anymore.</blockquote>            
-          </div>
-
-          <div style={styles.sound} className='col-xs-12 col-md-6'> 
-            {createAudioFile("https://soundcloud.com/user-44658808/no-cameras")}
-          </div>
+        
+        
+        <div className='row' style={styles.songTitle} className='col-xs-12'> 
+          <div className='col-xs-12'> switch </div>
         </div>
 
         <div className='row'>
@@ -144,6 +179,10 @@ class App extends Component {
           </div>
         </div>
 
+        <div className='row' style={styles.songTitle} className='col-xs-12'> 
+          <div className='col-xs-12'> wonderful conversation </div>
+        </div>
+
         <div className='row'>
           <div style={styles.summary} className='col-xs-12 col-md-6'> 
             <div>Inspiration</div>
@@ -153,6 +192,10 @@ class App extends Component {
           <div style={styles.sound} className='col-xs-12 col-md-6'> 
             {createAudioFile("https://soundcloud.com/user-44658808/wonderful-conversation")}
           </div>
+        </div>
+
+        <div className='row' style={styles.songTitle} className='col-xs-12'> 
+          <div className='col-xs-12'> confidence vs. doubt </div>
         </div>
 
         <div className='row'>
