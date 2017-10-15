@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import TopNavBar from '../src/Components/TopNavBar/'
 import styled, { keyframes } from 'styled-components';
+import { RotatingGreeter } from '../src/Components/RotatingGreeting/';
+
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // import '../no'
 
@@ -77,25 +79,9 @@ const styles = {
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div style={styles.hrImaginationWrapper} className='row'> 
-          <div style={styles.hrImaginationText} className='col-xs-12'> 
-            <RotatingLetter> H </RotatingLetter>
-            <RotatingLetter> R </RotatingLetter>
-            <RotatingLetter> &nbsp; </RotatingLetter>
-            <RotatingLetter> i </RotatingLetter>
-            <RotatingLetter> m </RotatingLetter>
-            <RotatingLetter> a </RotatingLetter>
-            <RotatingLetter> g </RotatingLetter>
-            <RotatingLetter> i </RotatingLetter>
-            <RotatingLetter> n </RotatingLetter>
-            <RotatingLetter> a </RotatingLetter>
-            <RotatingLetter> t </RotatingLetter>
-            <RotatingLetter> i </RotatingLetter>
-            <RotatingLetter> o </RotatingLetter>
-            <RotatingLetter> n </RotatingLetter>          
-          </div>
-        </div>
+      <div className="App">        
+
+        <RotatingGreeter />
 
         <div className='row' style={styles.musicText}> 
           <div className='col-xs-12'> music </div>          
@@ -109,6 +95,17 @@ class App extends Component {
           <div style={styles.summary} className='col-xs-6'> 
             <div>Inspiration</div>
             <blockquote> no cameras is inspired by “ride with me” / Nelly. We interpreted “ride with me” as as follows: Nelly is explaining how his life changed after he became rich and famous - he loves certain perks (like having a nice Mercedes) but overall doesn’t enjoy the fact that people are treating him differently because of his money. So we took this concept and told the story about a random man who is newly famous and is now getting treated differently (girls are chasing him for his money, his friends are fake etc.). Our character realizes that all he wants to do is flee away from the cameras, hangout with a simple girl, and grind in the studio until he can’t anymore.</blockquote>
+          </div>
+
+          <div style={styles.sound} className='col-xs-6'> 
+            <div>Sound</div>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div style={styles.summary} className='col-xs-6'> 
+            <div>Inspiration</div>
+            <blockquote> Switch is inspired by a parking ticket. There was a day when one of the members of HR Imagination got off of work, found a parking ticket on his car and it ruined his afternoon. He got a parking ticket, then got home and realized there was no beer left in the fridge :( and he realized that he was feeling quite agitated. It was then that he took a major step back and realized that he shouldn't be stressing about these trivial things. There are millions of people in the world who live on less than 3 dollars a day and here he was worrying about a parking ticket and no beer. He decided to "switch" up how he thought and focus on living a more compassionate life rather than spend time worrying about paltry problems.</blockquote>
           </div>
 
           <div style={styles.sound} className='col-xs-6'> 
