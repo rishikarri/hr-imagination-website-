@@ -105,7 +105,29 @@ class App extends Component {
         <div className='row'>
           <div style={styles.summary} className='col-xs-6'> 
             <div>Inspiration</div>
-            <blockquote> Switch is inspired by a parking ticket. There was a day when one of the members of HR Imagination got off of work, found a parking ticket on his car and it ruined his afternoon. He got a parking ticket, then got home and realized there was no beer left in the fridge :( and he realized that he was feeling quite agitated. It was then that he took a major step back and realized that he shouldn't be stressing about these trivial things. There are millions of people in the world who live on less than 3 dollars a day and here he was worrying about a parking ticket and no beer. He decided to "switch" up how he thought and focus on living a more compassionate life rather than spend time worrying about paltry problems.</blockquote>
+            <blockquote> switch is inspired by a parking ticket. There was a day when one of the members of HR Imagination got off of work, found a parking ticket on his car and it ruined his afternoon. He got a parking ticket, then got home and realized there was no beer left in the fridge :( and he realized that he was feeling quite agitated. It was then that he took a major step back and realized that he shouldn't be stressing about these trivial things. There are millions of people in the world who live on less than 3 dollars a day and here he was worrying about a parking ticket and no beer. He decided to "switch" up how he thought and focus on living a more compassionate life rather than spend time worrying about paltry problems.</blockquote>
+          </div>
+
+          <div style={styles.sound} className='col-xs-6'> 
+            <div>Sound</div>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div style={styles.summary} className='col-xs-6'> 
+            <div>Inspiration</div>
+            <blockquote> wonderful conversation is inspired by the book wonder (R.J Palacio). Wonder is a book that tells a story about a kid who has a deformed face and is treated differently by the world because of it. What we took from the book is that at the end of the day, as cliche as it sounds, it's what is inside that matters. We, as humans, should get to know people with an open mind rather than myopically judge them based on how they look / dress. This song tells a story of a person who encounters a man with a deformity in a city. This man pulls the narrator aside and the two have a wonderful conversation.</blockquote>
+          </div>
+
+          <div style={styles.sound} className='col-xs-6'> 
+            <div>Sound</div>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div style={styles.summary} className='col-xs-6'> 
+            <div>Inspiration</div>
+            <blockquote> confidence vs doubt is about one person with two competing emotions (confidence and doubt). The person realizes that these emotions appear to alternate without one remaining prominent over the other. ("There ain't no sunny days without any stormy weather"). Confidence says things like "let's escape town" (leave doubt behind) "on the first greyhound that you see". The person listens and is trying to calm down and focus on achieving his / her dreams - "just take your time now, let your emotions all fall on down, as you take the crown" ... but then doubt hops into the emotional backdrop "i've been running, running so so long", "mother nature always holds you down". Doubt is telling the person that he / she has been running after his / her dreams for so long and will probably run out of energy or time before he / she gets to them. The song continues as this hypothetical character wages war between these two strong feelings.</blockquote>
           </div>
 
           <div style={styles.sound} className='col-xs-6'> 
