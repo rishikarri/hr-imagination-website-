@@ -76,6 +76,15 @@ const styles = {
   },
 }
 
+const createAudioFile = (hrefToUse) => {
+  var audio = new Audio('audio_file.mp3');
+
+  return ( 
+    <div> <button> <a href={hrefToUse} target="_blank">Listen</a> </button> </div>
+    )
+}
+
+
 class App extends Component {
   render() {
     return (
@@ -94,11 +103,11 @@ class App extends Component {
         <div className='row'>
           <div style={styles.summary} className='col-xs-6'> 
             <div>Inspiration</div>
-            <blockquote> no cameras is inspired by “ride with me” / Nelly. We interpreted “ride with me” as as follows: Nelly is explaining how his life changed after he became rich and famous - he loves certain perks (like having a nice Mercedes) but overall doesn’t enjoy the fact that people are treating him differently because of his money. So we took this concept and told the story about a random man who is newly famous and is now getting treated differently (girls are chasing him for his money, his friends are fake etc.). Our character realizes that all he wants to do is flee away from the cameras, hangout with a simple girl, and grind in the studio until he can’t anymore.</blockquote>
+            <blockquote> no cameras is inspired by “ride with me” / Nelly. We interpreted “ride with me” as as follows: Nelly is explaining how his life changed after he became rich and famous - he loves certain perks (like having a nice Mercedes) but overall doesn’t enjoy the fact that people are treating him differently because of his money. So we took this concept and told the story about a random man who is newly famous and is now getting treated differently (girls are chasing him for his money, his friends are fake etc.). Our character realizes that all he wants to do is flee away from the cameras, hangout with a simple girl, and grind in the studio until he can’t anymore.</blockquote>            
           </div>
 
           <div style={styles.sound} className='col-xs-6'> 
-            <div>Sound</div>
+            {createAudioFile("http://www.wikipedia.com")}
           </div>
         </div>
 
@@ -109,7 +118,7 @@ class App extends Component {
           </div>
 
           <div style={styles.sound} className='col-xs-6'> 
-            <div>Sound</div>
+            {createAudioFile("http://www.wikipedia.com")}
           </div>
         </div>
 
@@ -120,7 +129,7 @@ class App extends Component {
           </div>
 
           <div style={styles.sound} className='col-xs-6'> 
-            <div>Sound</div>
+            {createAudioFile("http://www.wikipedia.com")}
           </div>
         </div>
 
@@ -131,7 +140,10 @@ class App extends Component {
           </div>
 
           <div style={styles.sound} className='col-xs-6'> 
-            <div>Sound</div>
+            <div>
+              {createAudioFile("http://www.wikipedia.com")}
+
+            </div>
           </div>
         </div>
 
