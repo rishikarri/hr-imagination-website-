@@ -85,6 +85,7 @@ const listenButtonStyle = {
   alignItems: 'center',
   height: 160,
   width: 160,
+  marginTop: 40,
   backgroundColor: 'rgba(230, 230, 230, 0.5)',
 
 }
@@ -128,7 +129,7 @@ class App extends Component {
           </div>
 
           <div style={styles.sound} className='col-xs-12 col-md-6'> 
-            {createAudioFile("http://www.wikipedia.com")}
+            {createAudioFile("https://soundcloud.com/user-44658808/no-cameras")}
           </div>
         </div>
 
@@ -139,7 +140,7 @@ class App extends Component {
           </div>
 
           <div style={styles.sound} className='col-xs-12 col-md-6'> 
-            {createAudioFile("http://www.wikipedia.com")}
+            {createAudioFile("https://soundcloud.com/user-44658808/switch")}
           </div>
         </div>
 
@@ -150,7 +151,7 @@ class App extends Component {
           </div>
 
           <div style={styles.sound} className='col-xs-12 col-md-6'> 
-            {createAudioFile("http://www.wikipedia.com")}
+            {createAudioFile("https://soundcloud.com/user-44658808/wonderful-conversation")}
           </div>
         </div>
 
@@ -162,7 +163,7 @@ class App extends Component {
 
           <div style={styles.sound} className='col-xs-12 col-md-6'> 
             
-              {createAudioFile("http://www.wikipedia.com")}
+              {createAudioFile("https://soundcloud.com/user-44658808/confidence-vs-doubt")}
             
           </div>
         </div>
