@@ -163,7 +163,7 @@ class App extends Component {
           </div>  
         </div>
         
-        
+
         <div className='row' style={styles.songTitle} className='col-xs-12'> 
           <div className='col-xs-12'> switch </div>
         </div>
@@ -211,7 +211,18 @@ class App extends Component {
           </div>
         </div>
 
-        
+        <div className='row' style={styles.about} className='col-xs-12'> 
+          <div className='col-xs-12' style={styles.musicText}> About </div>
+        </div>
+
+          <div style={{height: 300, width: 300, borderRadius: '50%', }}>
+            <img style={{maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
+            
+          </div>
+
+        <div> 
+
+        </div>        
 
 
 
