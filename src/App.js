@@ -251,7 +251,19 @@ class App extends Component {
             </div>
             <div className='col-xs-4'>
               <p style={{display: 'inlineBlock', fontSize: 40, color: 'purple'}}><span style={styles.bigLetter}>R</span>ishi Karri </p>
-              <p style={{display: 'inlineBlock'}}>Guitar, Ukulele, Vocals </p>
+              <p style={{display: 'inlineBlock'}}>Music:</p>
+              <p style={{marginLeft: 20, }}> 
+                <li>Guitar</li>
+                <li>Ukulele</li> 
+                <li>Vocals </li>
+              </p>
+
+              <p style={{display: 'inlineBlock'}}>Book Reccomendations: </p>
+              <p style={{marginLeft: 20, }}> 
+                <li>The Alchemist - Paulo Coelho </li>
+                <li>Just Mercy - Bryan Stevenson </li> 
+                <li>Diamond Boy - Michael Williams </li>
+              </p>
             </div>
           </div>
         </div>
