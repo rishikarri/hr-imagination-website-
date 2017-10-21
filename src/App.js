@@ -221,7 +221,18 @@ class App extends Component {
               <img style={{maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
             </div>
             <div className='col-xs-4'>
-              <p style={{display: 'inlineBlock'}}>hi</p>            
+              <p style={{display: 'inlineBlock'}}>Piano, Music Producer, Vocals </p>
+            </div>
+          </div>
+        </div>
+
+        <div className='row' style={{marginTop: 280,}}> 
+          <div className='col-xs-12'>
+            <div className='col-xs-6' style={{height: 300, width: 300, borderRadius: '50%', }}>
+              <img style={{maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
+            </div>
+            <div className='col-xs-4'>
+              <p style={{display: 'inlineBlock'}}>Guitar, Ukulele, Vocals </p>
             </div>
           </div>
         </div>
