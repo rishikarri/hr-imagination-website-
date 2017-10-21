@@ -71,7 +71,12 @@ const styles = {
     backgroundColor: 'rgba(230, 230, 230, 0.5)',
   },
   bigLetter: {
-    fontSize: 20,
+    fontSize: 120,
+    color: 'green',    
+  },
+  bigLetterH: {
+    fontSize: 120,
+    color: 'purple',    
   },
 
   songTitle: {    
@@ -233,6 +238,7 @@ class App extends Component {
               <img style={{borderWidth: 2, borderColor: 'red', borderStyle: 'solid', maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
             </div>
             <div className='col-xs-4'>
+            <p style={{display: 'inlineBlock', fontSize: 40, color: 'green'}}><span style={styles.bigLetterH}>H</span>olden Sherer </p>
               <p style={{display: 'inlineBlock'}}>Piano, Music Producer, Vocals </p>
             </div>
           </div>
@@ -244,7 +250,7 @@ class App extends Component {
               <img style={{maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
             </div>
             <div className='col-xs-4'>
-              <p style={{display: 'inlineBlock'}}><span style={styles.bigLetter}>R</span>ishi Karri </p>
+              <p style={{display: 'inlineBlock', fontSize: 40, color: 'purple'}}><span style={styles.bigLetter}>R</span>ishi Karri </p>
               <p style={{display: 'inlineBlock'}}>Guitar, Ukulele, Vocals </p>
             </div>
           </div>
