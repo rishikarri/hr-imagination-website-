@@ -70,6 +70,9 @@ const styles = {
     height: 200,
     backgroundColor: 'rgba(230, 230, 230, 0.5)',
   },
+  bigLetter: {
+    fontSize: 20,
+  },
 
   songTitle: {    
     display: 'flex',
@@ -227,7 +230,7 @@ class App extends Component {
         <div className='row'> 
           <div className='col-xs-12'>
             <div className='col-xs-6' style={{height: 300, width: 300, borderRadius: '50%', }}>
-              <img style={{maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
+              <img style={{borderWidth: 2, borderColor: 'red', borderStyle: 'solid', maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
             </div>
             <div className='col-xs-4'>
               <p style={{display: 'inlineBlock'}}>Piano, Music Producer, Vocals </p>
@@ -241,6 +244,7 @@ class App extends Component {
               <img style={{maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
             </div>
             <div className='col-xs-4'>
+              <p style={{display: 'inlineBlock'}}><span style={styles.bigLetter}>R</span>ishi Karri </p>
               <p style={{display: 'inlineBlock'}}>Guitar, Ukulele, Vocals </p>
             </div>
           </div>
@@ -277,7 +281,7 @@ class App extends Component {
 
         <div> 
 
-        <div className='col-xs-12' style={{marginTop: 100}}>Content Copyright @ www.hrimagination.life. Website Copyright © www.rishikarri.com 2017. </div>
+        <div className='col-xs-12' style={{marginTop: 100}}>Audio Content Copyright @ www.hrimagination.life. Website Copyright © www.rishikarri.com 2017. </div>
 
 
 

@@ -24,7 +24,7 @@ const styles = {
   },
   hrImaginationText: {
     color: 'green',
-    fontSize: 32,
+    fontSize: 28,
     height: 600,
     textAlign: 'center',
     display: 'flex',
