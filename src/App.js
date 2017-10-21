@@ -234,23 +234,23 @@ class App extends Component {
 
         <div className='row'> 
           <div className='col-xs-12'>
-            <div className='col-xs-6' style={{height: 300, width: 300, borderRadius: '50%', }}>
+            <div className='col-xs-6' style={{height: 300, width: 300, marginTop: 30, borderRadius: '50%', }}>
               <img style={{borderWidth: 2, borderColor: 'red', borderStyle: 'solid', maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
             </div>
             <div className='col-xs-4'>
             <p style={{display: 'inlineBlock', fontSize: 40, color: 'green'}}><span style={styles.bigLetterH}>H</span>olden Sherer </p>
-              <p style={{display: 'inlineBlock'}}>Studio Sections:</p>
+              <p><span style={{color: 'green', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Studio Sections:</span></p>
               <p style={{marginLeft: 20, }}> 
-                <li>Piano</li>
-                <li>Music Producer</li> 
-                <li>Vocals </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Piano</li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Music Producer</li> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Vocals </li>
               </p>
 
-              <p style={{display: 'inlineBlock'}}>Book Reccomendations: </p>
+              <p><span style={{color: 'purple', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Book Recomendations:</span></p>
               <p style={{marginLeft: 20, }}> 
-                <li>Holden Book - Holden Sherer </li>
-                <li>Holden Book - Holden Sherer </li> 
-                <li>Holden Book - Holden Sherer </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li>
               </p>
             </div>
           </div>
@@ -263,18 +263,18 @@ class App extends Component {
             </div>
             <div className='col-xs-4'>
               <p style={{display: 'inlineBlock', fontSize: 40, color: 'purple'}}><span style={styles.bigLetter}>R</span>ishi Karri </p>
-              <p style={{display: 'inlineBlock'}}>Studio Sections:</p>
+              <p><span style={{color: 'purple', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Studio Sections:</span></p>
               <p style={{marginLeft: 20, }}> 
-                <li>Guitar</li>
-                <li>Ukulele</li> 
-                <li>Vocals </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Guitar</li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Ukulele</li> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Vocals </li>
               </p>
 
-              <p style={{display: 'inlineBlock'}}>Book Reccomendations: </p>
+              <p><span style={{color: 'green', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Book Recomendations:</span></p>
               <p style={{marginLeft: 20, }}> 
-                <li>The Alchemist - Paulo Coelho </li>
-                <li>Just Mercy - Bryan Stevenson </li> 
-                <li>Diamond Boy - Michael Williams </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>The Alchemist - Paulo Coelho </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}} >Just Mercy - Bryan Stevenson </li> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Diamond Boy - Michael Williams </li>
               </p>
             </div>
           </div>
