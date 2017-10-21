@@ -5,6 +5,8 @@ import TopNavBar from '../src/Components/TopNavBar/'
 import styled, { keyframes } from 'styled-components';
 import { RotatingGreeter } from '../src/Components/RotatingGreeting/';
 import FaHeadphones from 'react-icons/lib/fa/headphones';
+import FaPaperPlaneO from 'react-icons/lib/fa/paper-plane-o';
+
 
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -90,7 +92,7 @@ const styles = {
     textAlign: 'center',
   },
   aboutWithHatSpace: {
-    marginTop: 300,
+    marginTop: 100,
   }
 }
 
@@ -242,6 +244,19 @@ class App extends Component {
 
         <div className='row' style={styles.aboutWithHatSpace} className='col-xs-12'> 
           <div className='col-xs-12' style={styles.musicText}> Contact </div>
+        </div>
+
+        <div className='row' style={styles.aboutWithHatSpace} className='col-xs-12'> 
+          
+          <div className='col-xs-12' style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>            
+            <div>
+              <FaPaperPlaneO height={200} width={200}/>
+            </div>          
+          </div>
+
+          <div className='col-xs-12'
+          style={{display: 'flex', alignItems: 'center', justifyContent: 'center', 
+          }}> Email Us! </div>
         </div>
 
           
