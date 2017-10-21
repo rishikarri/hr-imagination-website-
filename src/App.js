@@ -233,7 +233,7 @@ class App extends Component {
         </div>
 
         <div className='row'> 
-          <div className='col-xs-12'>
+          <div className='col-xs-12' style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <div className='col-xs-6' style={{height: 300, width: 300, marginTop: 30, borderRadius: '50%', }}>
               <img style={{borderWidth: 2, borderColor: 'red', borderStyle: 'solid', maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
             </div>
@@ -246,7 +246,7 @@ class App extends Component {
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Vocals </li>
               </p>
 
-              <p><span style={{color: 'purple', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Book Recomendations:</span></p>
+              <p><span style={{color: 'purple', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Book Recommendations:</span></p>
               <p style={{marginLeft: 20, }}> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li>
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li> 
@@ -257,7 +257,7 @@ class App extends Component {
         </div>
 
         <div className='row' style={{marginTop: 280,}}> 
-          <div className='col-xs-12'>
+          <div className='col-xs-12' style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <div className='col-xs-6' style={{height: 300, width: 300, borderRadius: '50%', }}>
               <img style={{maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
             </div>
@@ -270,7 +270,7 @@ class App extends Component {
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Vocals </li>
               </p>
 
-              <p><span style={{color: 'green', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Book Recomendations:</span></p>
+              <p><span style={{color: 'green', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Book Recommendations:</span></p>
               <p style={{marginLeft: 20, }}> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>The Alchemist - Paulo Coelho </li>
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}} >Just Mercy - Bryan Stevenson </li> 
