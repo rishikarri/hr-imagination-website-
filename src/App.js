@@ -186,18 +186,20 @@ class App extends Component {
           </div>
         </div>
 
-        <div className='row' style={styles.songTitle} className='col-xs-12'> 
-          <div className='col-xs-12'> wonderful conversation </div>
-        </div>
-
-        <div className='row'>
-          <div style={styles.summary} className='col-xs-12 col-md-6'> 
-            <div>Inspiration</div>
-            <blockquote> wonderful conversation is inspired by the book wonder (R.J Palacio). Wonder is a book that tells a story about a kid who has a deformed face and is treated differently by the world because of it. What we took from the book is that at the end of the day, as cliche as it sounds, it's what is inside that matters. We, as humans, should get to know people with an open mind rather than myopically judge them based on how they look / dress. This song tells a story of a person who encounters a man with a deformity in a city. This man pulls the narrator aside and the two have a wonderful conversation.</blockquote>
+        <div className="row" style={styles.songCard} className='col-xs-12'>
+          <div className='row' style={styles.songTitle} className='col-xs-12'> 
+            <div className='col-xs-12'> wonderful conversation </div>
           </div>
 
-          <div style={styles.sound} className='col-xs-12 col-md-6'> 
-            {createAudioFile("https://soundcloud.com/user-44658808/wonderful-conversation")}
+          <div className='row'>
+            <div style={styles.summary} className='col-xs-12 col-md-6'> 
+              <div>Inspiration</div>
+              <blockquote> wonderful conversation is inspired by the book wonder (R.J Palacio). Wonder is a book that tells a story about a kid who has a deformed face and is treated differently by the world because of it. What we took from the book is that at the end of the day, as cliche as it sounds, it's what is inside that matters. We, as humans, should get to know people with an open mind rather than myopically judge them based on how they look / dress. This song tells a story of a person who encounters a man with a deformity in a city. This man pulls the narrator aside and the two have a wonderful conversation.</blockquote>
+            </div>
+
+            <div style={styles.sound} className='col-xs-12 col-md-6'> 
+              {createAudioFile("https://soundcloud.com/user-44658808/wonderful-conversation")}
+            </div>
           </div>
         </div>
 
