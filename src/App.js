@@ -6,6 +6,8 @@ import styled, { keyframes } from 'styled-components';
 import { RotatingGreeter } from '../src/Components/RotatingGreeting/';
 import FaHeadphones from 'react-icons/lib/fa/headphones';
 import FaPaperPlaneO from 'react-icons/lib/fa/paper-plane-o';
+import FaAngellist from 'react-icons/lib/fa/hand-peace-o';
+
 
 
 
@@ -242,26 +244,40 @@ class App extends Component {
           </div>
         </div>
 
-        <div className='row' style={styles.aboutWithHatSpace} className='col-xs-12'> 
+        <div className='row' style={{marginTop: 200,}} className='col-xs-12'> 
           <div className='col-xs-12' style={styles.musicText}> Contact </div>
         </div>
 
-        <div className='row' style={styles.aboutWithHatSpace} className='col-xs-12'> 
+        <div className='row' style={{marginTop: 20}} className='col-xs-12'> 
           
-          <div className='col-xs-12' style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>            
+          <div className='col-xs-12' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>            
             <div>
-              <FaPaperPlaneO height={200} width={200}/>
+              <a style={{color: 'purple'}}              
+              href='mailto:hrimagination414@gmail.com'> <FaPaperPlaneO height={180} width={180}/></a>              
             </div>          
+
+            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', 
+              color: 'purple', fontSize: 30, marginTop: 50,
+            }}>
+            <a style={{color: 'purple'}}              
+              href='mailto:hrimagination414@gmail.com'> <FaAngellist height={180} width={180} /></a>              
+              
+            </div>
           </div>
 
           <div className='col-xs-12'
           style={{display: 'flex', alignItems: 'center', justifyContent: 'center', 
-          }}> Email Us! </div>
+          color: 'green', fontSize: 30, marginTop: 50,
+          }}> <a style={{color: 'green'}} href='mailto:hrimagination414@gmail.com'>Email Us!</a> </div>
         </div>
 
           
 
         <div> 
+
+        <div className='col-xs-12' style={{marginTop: 100}}>Content Copyright @ www.hrimagination.life. Website Copyright © www.rishikarri.com 2017. </div>
+
+
 
         </div>        
 
