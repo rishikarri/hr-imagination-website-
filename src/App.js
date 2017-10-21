@@ -89,6 +89,9 @@ const styles = {
   sound: {
     textAlign: 'center',
   },
+  aboutWithHatSpace: {
+    marginTop: 300,
+  }
 }
 
 const listenButtonStyle = {
@@ -237,6 +240,9 @@ class App extends Component {
           </div>
         </div>
 
+        <div className='row' style={styles.aboutWithHatSpace} className='col-xs-12'> 
+          <div className='col-xs-12' style={styles.musicText}> Contact </div>
+        </div>
 
           
 
