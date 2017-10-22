@@ -130,6 +130,13 @@ export const About = () => {
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li>
               </p>
+
+              <p><span style={{color: 'green', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Other Interests:</span></p>
+              <p style={{marginLeft: 20, }}> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Sociology</li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Tennis</li> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Soccer </li>
+              </p>
             </div>
           </div>
         </div>
@@ -153,6 +160,13 @@ export const About = () => {
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>The Alchemist - Paulo Coelho </li>
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}} >Just Mercy - Bryan Stevenson </li> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Diamond Boy - Michael Williams </li>
+              </p>
+
+              <p><span style={{color: 'purple', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Other Interests:</span></p>
+              <p style={{marginLeft: 20, }}> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}><a style={{color: 'purple'}} target="_blank" href="http://rishikarri.com">Software Development </a></li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Tennis</li> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Reading </li>
               </p>
             </div>
           </div>
