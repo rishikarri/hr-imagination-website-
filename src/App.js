@@ -1,3 +1,4 @@
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -5,15 +6,9 @@ import TopNavBar from '../src/Components/TopNavBar/'
 import styled, { keyframes } from 'styled-components';
 import { RotatingGreeter } from '../src/Components/RotatingGreeting/';
 import{ MusicContext } from '../src/Components/MusicSectionContext/';
+import { About } from '../src/Components/About/';
+import { Contact } from '../src/Components/Contact/';
 
-import FaHeadphones from 'react-icons/lib/fa/headphones';
-import FaPaperPlaneO from 'react-icons/lib/fa/paper-plane-o';
-import FaAngellist from 'react-icons/lib/fa/hand-peace-o';
-
-
-
-
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 // import '../no'
 
@@ -138,102 +133,8 @@ class App extends Component {
 
         <RotatingGreeter />
         <MusicContext />
-
-
-        
-
-        <div className='row' style={styles.about} className='col-xs-12'> 
-          <div className='col-xs-12' style={styles.musicText}> About </div>
-        </div>
-
-        <div className='row'> 
-          <div className='col-xs-12' style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <div className='col-xs-6' style={{height: 300, width: 300, marginTop: 30, borderRadius: '50%', }}>
-              <img style={{borderWidth: 2, borderColor: 'red', borderRadius: 20,  borderStyle: 'solid', maxWidth: '100%'}}className='interests-image' src='../Images/rk_photo.png' /> 
-            </div>
-            <div className='col-xs-4'>
-            <p style={{display: 'inlineBlock', fontSize: 40, color: 'green'}}><span style={styles.bigLetterH}>H</span>olden Sherer </p>
-              <p><span style={{color: 'green', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Studio Sections:</span></p>
-              <p style={{marginLeft: 20, }}> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Piano</li>
-                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Music Producer</li> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Vocals </li>
-              </p>
-
-              <p><span style={{color: 'purple', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Book Recommendations:</span></p>
-              <p style={{marginLeft: 20, }}> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li>
-                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className='row' style={{marginTop: 280,}}> 
-          <div className='col-xs-12' style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <div className='col-xs-6' style={{height: 300, width: 300, borderRadius: '50%', }}>
-              <img style={{maxWidth: '100%', borderRadius: 20, }}className='interests-image' src='../Images/rk_photo.png' /> 
-            </div>
-            <div className='col-xs-4'>
-              <p style={{display: 'inlineBlock', fontSize: 40, color: 'purple'}}><span style={styles.bigLetter}>R</span>ishi Karri </p>
-              <p><span style={{color: 'purple', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Studio Sections:</span></p>
-              <p style={{marginLeft: 20, }}> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Guitar</li>
-                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Ukulele</li> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Vocals </li>
-              </p>
-
-              <p><span style={{color: 'green', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Book Recommendations:</span></p>
-              <p style={{marginLeft: 20, }}> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>The Alchemist - Paulo Coelho </li>
-                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}} >Just Mercy - Bryan Stevenson </li> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Diamond Boy - Michael Williams </li>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className='row' style={{marginTop: 200,}} className='col-xs-12'> 
-          <div className='col-xs-12' style={styles.musicText}> Contact </div>
-        </div>
-
-        <div className='row' style={{marginTop: 20}} className='col-xs-12'>           
-          <div className='col-xs-12' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>            
-            <div>
-              <a style={{color: 'purple'}}              
-              href='mailto:hrimagination414@gmail.com'> <FaPaperPlaneO height={180} width={180}/></a>              
-            </div>          
-
-            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', 
-              color: 'purple', fontSize: 30, marginTop: 50,
-            }}>
-            <a style={{color: 'purple'}}              
-              href='mailto:hrimagination414@gmail.com'> <FaAngellist height={180} width={180} /></a>              
-              
-            </div>
-
-          </div>
-
-          
-
-          <div className='col-xs-12'
-          style={{display: 'flex', alignItems: 'center', justifyContent: 'center', 
-          color: 'green', fontSize: 30, marginTop: 50,
-          }}> <a style={{color: 'green'}} href='mailto:hrimagination414@gmail.com'>Email Us!</a> </div>
-
-
-        </div>
-
-          
-
-        <div> 
-
-        <div className='col-xs-12' style={{marginTop: 100}}>Audio Content Copyright @ www.hrimagination.life. Website Copyright © www.rishikarri.com 2017. </div>
-
-
-
-        </div>        
+        <About />  
+        <Contact />  
 
 
 

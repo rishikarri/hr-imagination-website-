@@ -85,7 +85,7 @@ export const RotatingGreeter = () => {
             <RotatingLetter> i </RotatingLetter>
             <RotatingLetter> o </RotatingLetter>
             <RotatingLetter> n </RotatingLetter>          
-          </div>
+          </div>        
         </div>
     );        
 };
