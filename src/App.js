@@ -19,12 +19,13 @@ const rotatingAnimation = keyframes`
 }
 `;
 
-// need to modularize code and add in music piece 
 // need to add in eslint - use rallycoding example 
 //also should add react helmet 
 
-// react-icons/lib/fa/headphones
-
+// Steps to competion: 
+// 1. Get Holden's information
+// 2. Make mobile responsive
+// 3. learn how to deploy
 
 const RotatingLetter = styled.div`
   display: inline-block;
@@ -135,9 +136,6 @@ class App extends Component {
         <MusicContext />
         <About />  
         <Contact />  
-
-
-
 
       </div>
     );
