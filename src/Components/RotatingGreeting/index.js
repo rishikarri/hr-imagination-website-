@@ -74,7 +74,7 @@ export const RotatingGreeter = () => {
             <RotatingLetter> H </RotatingLetter>
             <RotatingLetter> R </RotatingLetter>
             <RotatingLetter> &nbsp; </RotatingLetter>
-            <RotatingLetter> i </RotatingLetter>
+            <RotatingLetter> I </RotatingLetter>
             <RotatingLetter> m </RotatingLetter>
             <RotatingLetter> a </RotatingLetter>
             <RotatingLetter> g </RotatingLetter>
