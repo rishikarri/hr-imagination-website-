@@ -1,5 +1,6 @@
 {
   "name": "hrimagination_life",
+  "homepage": "http://www.hrimagination.life",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
