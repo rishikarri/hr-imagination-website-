@@ -210,6 +210,12 @@ export const MusicContext = () => {
               {createAudioFile("https://soundcloud.com/user-44658808/confidence-vs-doubt")}
             
           </div>
+          <div className='row'> 
+            <div className='col-xs-12' style={{textAlign: 'center'}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
+              <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">Spotify</a>
+              <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">Apple Music</a>
+             </div>            
+          </div>
         </div>
       </div>
     );        
