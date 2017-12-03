@@ -126,9 +126,9 @@ export const About = () => {
 
               <p><span style={{color: 'purple', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Book Recommendations:</span></p>
               <p style={{marginLeft: 20, }}> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li>
-                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Holden Book - Holden Sherer </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>The Bluest Eye - Toni Morrison </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Open - Andre Agassi </li> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>The Four Agreements - Don Miguel Ruiz </li>
               </p>
 
               <p><span style={{color: 'green', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Other Interests:</span></p>
