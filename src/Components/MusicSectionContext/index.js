@@ -142,12 +142,12 @@ export const MusicContext = () => {
     return (
       <div className='row'>
         <div className='row' style={styles.musicText}> 
-          <div className='col-xs-12'> music </div>          
+          <div className='col-xs-12'> Music </div>          
         </div>
 
         <div className="row" style={styles.songCardNoCameras} className='col-xs-12 '>
-          <div className='row' className='col-xs-12'> No Cameras
-            <div style={styles.songTitle} className='col-xs-12'> as </div>
+          <div className='row' className='col-xs-12'> 
+            <div style={styles.songTitle} className='col-xs-12'> No Cameras </div>
           </div>
 
           <div className='row'>
