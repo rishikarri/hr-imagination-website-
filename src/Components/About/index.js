@@ -135,7 +135,9 @@ export const About = () => {
               <p style={{marginLeft: 20, }}> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Sociology</li>
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Tennis</li> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Soccer </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Milwaukee Bucks </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Graphic Design </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Traveling </li>
               </p>
             </div>
           </div>
@@ -166,7 +168,9 @@ export const About = () => {
               <p style={{marginLeft: 20, }}> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}><a style={{color: 'purple'}} target="_blank" href="http://rishikarri.com">Software Development </a></li>
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Tennis</li> 
-                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Reading </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}><a style={{color: 'purple'}} target="_blank" href="http://rishikarri.com/interests">Reading </a></li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Spanish </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Traveling </li>
               </p>
             </div>
           </div>
