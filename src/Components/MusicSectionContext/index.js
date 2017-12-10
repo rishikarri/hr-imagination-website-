@@ -166,7 +166,7 @@ export const MusicContext = () => {
           <div className='col-xs-12'> Music </div>          
         </div>
 
-        <div className="row" style={styles.songCardNoCameras} className='col-xs-12 '>
+        <div className="row" style={styles.songCardNoCameras} >
           <div className='row' className='col-xs-12'> 
             <div style={styles.songTitle} className='col-xs-12'> No Cameras </div>
           </div>
@@ -184,7 +184,7 @@ export const MusicContext = () => {
         </div>
         
 
-        <div className='row' style={styles.songTitle} className='col-xs-12'> 
+        <div className='row' style={styles.songTitle} > 
           <div className='col-xs-12'> Switch </div>
         </div>
 
@@ -200,7 +200,24 @@ export const MusicContext = () => {
         </div>
 
         <div className="row" style={styles.songCard} className='col-xs-12'>
-          <div className='row' style={styles.songTitle} className='col-xs-12'> 
+          <div className='row' style={styles.songTitle}> 
+            <div className='col-xs-12'> Confidence Vs. Doubt </div>
+          </div>
+
+          <div className='row'>
+            <div style={styles.summary} className='col-xs-12 col-md-6'> 
+              <div style={styles.inspiration}>Inspiration</div>
+              <blockquote style={{paddingRight: 60, paddingLeft: 60, }}> Confidence vs. Doubt is about one person with two competing emotions (confidence and doubt). The person realizes that these emotions appear to alternate without one remaining prominent over the other. ("There ain't no sunny days without any stormy weather"). Confidence says things like "let's escape town" (leave doubt behind) "on the first greyhound that you see". The person listens and is trying to calm down and focus on achieving his / her dreams - "just take your time now, let your emotions all fall on down, as you take the crown" ... but then doubt hops into the emotional backdrop: "i've been running, running so so long", "mother nature always holds you down". Doubt is telling the person that he / she has been running after his / her dreams for so long and will probably run out of energy or time before he / she gets to them. The song continues as this hypothetical character wages war between these two competing emotions.</blockquote>
+            </div>
+
+            <div style={styles.sound} className='col-xs-12 col-md-6'> 
+              {createAudioFile("https://soundcloud.com/user-44658808/confidence-vs-doubt")}
+            </div>
+          </div>
+        </div>
+
+        <div className="row" className='col-xs-12'>
+          <div className='row' style={styles.songTitle}> 
             <div className='col-xs-12'> Wonderful Conversation </div>
           </div>
 
@@ -215,24 +232,24 @@ export const MusicContext = () => {
             </div>
           </div>
         </div>
-
-        <div className='row' style={styles.songTitle} className='col-xs-12'> 
-          <div className='col-xs-12'> Confidence vs. Doubt </div>
-        </div>
-
-        <div className='row'>
-          <div style={styles.summary} className='col-xs-10 col-md-6'> 
-            <div style={styles.inspiration}>Inspiration</div>
-            <blockquote style={{paddingRight: 60, paddingLeft: 60, }}> Confidence vs. Doubt is about one person with two competing emotions (confidence and doubt). The person realizes that these emotions appear to alternate without one remaining prominent over the other. ("There ain't no sunny days without any stormy weather"). Confidence says things like "let's escape town" (leave doubt behind) "on the first greyhound that you see". The person listens and is trying to calm down and focus on achieving his / her dreams - "just take your time now, let your emotions all fall on down, as you take the crown" ... but then doubt hops into the emotional backdrop: "i've been running, running so so long", "mother nature always holds you down". Doubt is telling the person that he / she has been running after his / her dreams for so long and will probably run out of energy or time before he / she gets to them. The song continues as this hypothetical character wages war between these two competing emotions.</blockquote>
-          </div>
-
-          <div style={styles.sound} className='col-xs-10 col-md-6'> 
             
-              {createAudioFile("https://soundcloud.com/user-44658808/confidence-vs-doubt")}
-            
-          </div>
+        <div className='row'>          
           <div className='row'> 
-            <div className='col-xs-12' style={{textAlign: 'center'}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
+            <div className='col-xs-5' style={{textAlign: 'center'}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
+              <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
+                <div style={listenButtonContainerStyle}>
+                  <div> 
+                    <a style={spotifyButtonStyle} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
+
+                      <img height={80} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldcF6XgFCexE0vRF_z4Kmio9wKywb7qjq5fRSEy1ZbxqlTxNQ" />
+                    </a> 
+                  </div>
+                </div>
+              </a>
+              <a href={'https://geo.itunes.apple.com/us/album/hr-1-ep/1307768330?mt=1&app=music'} target="_blank">Spotify</a>
+             </div>
+
+            <div className='col-xs-5' style={{textAlign: 'center'}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
               <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
                 <div style={listenButtonContainerStyle}>
                   <div> 
@@ -245,8 +262,14 @@ export const MusicContext = () => {
                 </div>
               </a>
               <a href={'https://geo.itunes.apple.com/us/album/hr-1-ep/1307768330?mt=1&app=music'} target="_blank">Apple Music</a>
-             </div>            
+             </div>
+
+
           </div>
+
+
+
+
         </div>
       </div>
     );        
