@@ -249,7 +249,7 @@ export const MusicContext = () => {
               <a href={'https://geo.itunes.apple.com/us/album/hr-1-ep/1307768330?mt=1&app=music'} target="_blank">Spotify</a>
              </div>
 
-            <div className='col-xs-5' style={{textAlign: 'center'}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
+            <div className='col-xs-5 col-xs-offset-1' style={{textAlign: 'center'}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
               <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
                 <div style={listenButtonContainerStyle}>
                   <div> 
