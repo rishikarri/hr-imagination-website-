@@ -247,14 +247,14 @@ export const MusicContext = () => {
                   </div>
                 </div>
               </a>
-              <a href={'https://geo.itunes.apple.com/us/album/hr-1-ep/1307768330?mt=1&app=music'} target="_blank">Spotify</a>
+              <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} style={{color: 'green'}} target="_blank">Spotify</a>
              </div>
 
             <div className='col-xs-5 col-xs-offset-1' style={{textAlign: 'center',  marginTop: 200}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
               <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
                 <div style={listenButtonContainerStyle}>
                   <div> 
-                    <a style={spotifyButtonStyle} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
+                    <a style={spotifyButtonStyle} href={'https://itunes.apple.com/us/album/hr-1-ep/1307768330?app=music&ign-itsct=1307768330-1307768330&ign-itscg=0177&ign-mpt=uo%3D4'} target="_blank">
 
                       <img height={80} src="http://www.bluebeck.co.uk/img/apple.svg" />
                     </a> 
@@ -262,7 +262,7 @@ export const MusicContext = () => {
                   </div>
                 </div>
               </a>
-              <a href={'https://geo.itunes.apple.com/us/album/hr-1-ep/1307768330?mt=1&app=music'} target="_blank">Apple Music</a>
+              <a style={{color: 'green'}}href={'https://geo.itunes.apple.com/us/album/hr-1-ep/1307768330?mt=1&app=music'} target="_blank">Apple Music</a>
              </div>
 
 

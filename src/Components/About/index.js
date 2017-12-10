@@ -121,6 +121,7 @@ export const About = () => {
               <p style={{marginLeft: 20, }}> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Piano</li>
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Music Producer</li> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Lyric Writer</li> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Vocals </li>
               </p>
 
@@ -154,6 +155,7 @@ export const About = () => {
               <p style={{marginLeft: 20, }}> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Guitar</li>
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Ukulele</li> 
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Lyric Writer</li> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Vocals </li>
               </p>
 
