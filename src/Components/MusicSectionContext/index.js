@@ -115,6 +115,25 @@ const listenButtonStyle = {
 
 }
 
+const spotifyButtonStyle = {
+  color: 'white',
+  hoverColor: 'blue',
+  fontSize: 32, 
+  textAlign: 'center',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  height: 120,
+  width: 120,
+  marginTop: 40,
+  borderColor: 'black',
+  borderWidth: 2,
+  borderStyle: 'solid',
+  borderRadius: 4,
+  backgroundColor: 'black',
+
+}
+
 
 const createAudioFile = (hrefToUse) => {
   var audio = new Audio('audio_file.mp3');
@@ -132,6 +151,8 @@ const createAudioFile = (hrefToUse) => {
     </div>
     )
 }
+
+
 
 
 // Component to export 
@@ -212,8 +233,18 @@ export const MusicContext = () => {
           </div>
           <div className='row'> 
             <div className='col-xs-12' style={{textAlign: 'center'}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
-              <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">Spotify</a>
-              <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">Apple Music</a>
+              <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
+                <div style={listenButtonContainerStyle}>
+                  <div> 
+                    <a style={spotifyButtonStyle} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
+
+                      <img height={80} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldcF6XgFCexE0vRF_z4Kmio9wKywb7qjq5fRSEy1ZbxqlTxNQ" />
+                    </a> 
+
+                  </div>
+                </div>
+              </a>
+              <a href={'https://geo.itunes.apple.com/us/album/hr-1-ep/1307768330?mt=1&app=music'} target="_blank">Apple Music</a>
              </div>            
           </div>
         </div>
