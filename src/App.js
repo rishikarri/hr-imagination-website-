@@ -136,8 +136,7 @@ class App extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>HR Imagination</title>
-          {/*<img style={{borderWidth: 2, borderColor: 'red', borderRadius: 20,  borderStyle: 'solid', maxWidth: '100%'}}className='interests-image' src='../Images/clockFavicon.png' /> */}
-          {<link rel="canonical" href="/favicon.png" />}
+          <img style={{borderWidth: 2, borderColor: 'red', borderRadius: 20,  borderStyle: 'solid', maxWidth: '100%'}}className='interests-image' src='../Images/clockFavicon.png' /> 
         </Helmet>
       
 

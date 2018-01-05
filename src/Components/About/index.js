@@ -113,7 +113,7 @@ export const About = () => {
         <div className='row'> 
           <div className='col-xs-12' style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <div className='col-xs-6' style={{height: 300, width: 300, marginTop: 30, borderRadius: '50%', }}>
-              <img style={{borderWidth: 2, borderColor: 'red', borderRadius: 20,  borderStyle: 'solid', maxWidth: '100%'}}className='interests-image' src='../Images/hs_photo.jpg' /> 
+              <img style={{ borderRadius: 20,  borderStyle: 'solid', maxWidth: '100%'}}className='interests-image' src='../Images/hs_photo.JPG' /> 
             </div>
             <div className='col-xs-4'>
             <p style={{display: 'inlineBlock', fontSize: 40, color: 'green'}}><span style={styles.bigLetterH}>H</span>olden Sherer </p>
@@ -144,7 +144,7 @@ export const About = () => {
           </div>
         </div>
 
-        <div className='row' style={{marginTop: 180,}}> 
+        <div className='row' style={{marginTop: 120,}}> 
           <div className='col-xs-12' style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <div className='col-xs-6' style={{height: 300, width: 300, borderRadius: '50%', }}>
               <img style={{maxWidth: '100%', borderRadius: 20, }}className='interests-image' src='../Images/rk_photo2.jpeg' /> 

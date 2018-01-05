@@ -174,7 +174,7 @@ export const MusicContext = () => {
           <div className='row'>
             <div style={styles.summary} className='col-xs-12 col-md-6'> 
               <div style={styles.inspiration}>Inspiration</div>
-              <blockquote style={{paddingRight: 60, paddingLeft: 60, }}> No Cameras is inspired by “ride with me” / Nelly. We interpreted “ride with me” as as follows: Nelly is explaining how his life changed after he became rich and famous - he loves certain perks (like having a nice Mercedes) but overall doesn’t enjoy the fact that people are treating him differently because of his money. So we took this concept and told the story about a random man who is newly famous and is now getting treated differently (girls are chasing him for his money, his friends are fake etc.). Our character realizes that all he wants to do is flee away from the cameras, hangout with a simple girl, and grind in the studio until he can’t anymore.</blockquote>            
+              <blockquote style={{paddingRight: 60, paddingLeft: 60, }}> No Cameras is inspired by “ride with me” / Nelly. We interpreted “ride with me” as as follows: Nelly is explaining how his life changes after he becomes rich and famous - he loves certain perks, such as having a nice Mercedes, but overall doesn’t enjoy the fact that people are treating him differently because of his money. So we took this concept and told the story about a random man who is newly famous and is now getting treated differently (girls are chasing him for his money, his friends are fake etc.). Our character realizes that all he wants to do is flee away from the cameras, hangout with a simple girl, and grind in the studio until he can’t anymore.</blockquote>            
             </div>
 
             <div style={styles.sound} className='col-xs-12 col-md-6'> 
@@ -191,7 +191,7 @@ export const MusicContext = () => {
         <div className='row'>
           <div style={styles.summary} className='col-xs-12 col-md-6'> 
             <div style={styles.inspiration}>Inspiration</div>
-            <blockquote style={{paddingRight: 60, paddingLeft: 60, }}> Switch is inspired by a parking ticket. There was a day when one of the members of HR Imagination got off of work, found a parking ticket on his car and it ruined his afternoon. He then went home and realized there was no beer left in the fridge :( and he realized that he was feeling quite agitated. It was then that he took a major step back and realized that he shouldn't be stressing about these trivial things. There are millions of people in the world who live on less than 3 dollars a day and here he was worrying about a parking ticket and no beer. He decided to "switch" up how he thought and focus on living a more compassionate life rather than spend time worrying about paltry problems.</blockquote>
+            <blockquote style={{paddingRight: 60, paddingLeft: 60, }}> Switch is inspired by a parking ticket. There was a day when one of the members of HR Imagination got off of work and found a parking ticket on his car. This inconsequential incident ruined his afternoon. He then went home and realized there was no beer left in the fridge to soothe his nerves. It was just after this moment of agitation that he he took a major step back and realized that he shouldn't be stressing about such trivial things. There are millions of people in the world who live on less than 3 dollars a day and here he was brooding about a parking ticket and no beer. He decided to "switch" up how he thinks and focus on living a more compassionate life rather than spend time worrying about paltry problems.</blockquote>
           </div>
 
           <div style={styles.sound} className='col-xs-12 col-md-6'> 
@@ -207,7 +207,7 @@ export const MusicContext = () => {
           <div className='row'>
             <div style={styles.summary} className='col-xs-12 col-md-6'> 
               <div style={styles.inspiration}>Inspiration</div>
-              <blockquote style={{paddingRight: 60, paddingLeft: 60, }}> Confidence vs. Doubt is about one person with two competing emotions (confidence and doubt). The person realizes that these emotions appear to alternate without one remaining prominent over the other. ("There ain't no sunny days without any stormy weather"). Confidence says things like "let's escape town" (leave doubt behind) "on the first greyhound that you see". The person listens and is trying to calm down and focus on achieving his / her dreams - "just take your time now, let your emotions all fall on down, as you take the crown" ... but then doubt hops into the emotional backdrop: "i've been running, running so so long", "mother nature always holds you down". Doubt is telling the person that he / she has been running after his / her dreams for so long and will probably run out of energy or time before he / she gets to them. The song continues as this hypothetical character wages war between these two competing emotions.</blockquote>
+              <blockquote style={{paddingRight: 60, paddingLeft: 60, }}> Confidence vs. Doubt is about one person with two competing emotions (confidence and doubt). The person realizes that these emotions appear to alternate without one remaining prominent over the other. ("There ain't no sunny days without any stormy weather"). Confidence says things like "let's escape town" (leave doubt behind) "on the first greyhound that you see". The person listens and is trying to calm down and focus on achieving his / her dreams - "just take your time now, let your emotions all fall on down, as you take the crown" ... but then doubt hops into the emotional backdrop: "i've been running, running so so long", "mother nature always holds you down". Doubt is telling the person that he / she has been running after his / her dreams for so long and will probably run out of energy or time before he / she gets to them. The song continues as this hypothetical character witnesses a tumultous war between these two competing emotions.</blockquote>
             </div>
 
             <div style={styles.sound} className='col-xs-12 col-md-6'> 
@@ -270,7 +270,7 @@ export const MusicContext = () => {
 
 
 
-
+          <div style={{marginBottom: 30}}> &nbsp; </div>
         </div>
       </div>
     );        

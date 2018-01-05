@@ -117,7 +117,7 @@ export const Contact = () => {
 
         <div> 
 
-        <div className='col-xs-12' style={{marginTop: 140, marginBottom: 20, textAlign: 'center'}}>Audio Content Copyright @ www.hrimagination.life. Website Copyright © www.rishikarri.com 2017. </div>
+        <div className='col-xs-12' style={{marginTop: 140, marginBottom: 20, textAlign: 'center'}}>Audio Content Copyright @ www.hrimagination.life. Website Copyright © www.rishikarri.com 2018. </div>
 
 
 
