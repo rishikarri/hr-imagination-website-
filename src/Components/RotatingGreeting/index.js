@@ -15,7 +15,7 @@ const RotatingLetter = styled.div`
   color: ${(props) => props.color ? `solid 9px ${props.color}` : 'solid 9px red'}; 
   height: 60px;
   width: 60px;  
-  animation: ${(props) => props.blinkRate ? `${rotatingAnimation} ${props.blinkRate} normal forwards` : `${rotatingAnimation} 2.4s linear 2`};
+  animation: ${(props) => props.blinkRate ? `${rotatingAnimation} ${props.blinkRate} normal forwards` : `${rotatingAnimation} 1.4s linear 2`};
 `;
 
 const styles = {

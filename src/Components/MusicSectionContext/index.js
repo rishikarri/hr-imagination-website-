@@ -236,7 +236,7 @@ export const MusicContext = () => {
         <div className='row'>
 
           <div className='row'> 
-            <div className='col-xs-5' style={{textAlign: 'center', marginTop: 200}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
+            <div className='col-xs-5' style={{textAlign: 'center', marginTop: 140}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
               <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
                 <div style={listenButtonContainerStyle}>
                   <div> 
@@ -250,7 +250,7 @@ export const MusicContext = () => {
               <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} style={{color: 'green'}} target="_blank">Spotify</a>
              </div>
 
-            <div className='col-xs-5 col-xs-offset-1' style={{textAlign: 'center',  marginTop: 200}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
+            <div className='col-xs-5 col-xs-offset-1' style={{textAlign: 'center',  marginTop: 140}} href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank"> 
               <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
                 <div style={listenButtonContainerStyle}>
                   <div> 
