@@ -22,12 +22,8 @@ const rotatingAnimation = keyframes`
 `;
 
 // need to add in eslint - use rallycoding example 
-//also should add react helmet 
+//also should add react helmet - get custom favicon - Clock favicon 
 
-// Steps to competion: 
-// 1. Get Holden's information
-// 2. Make mobile responsive
-// 3. learn how to deploy
 
 const RotatingLetter = styled.div`
   display: inline-block;

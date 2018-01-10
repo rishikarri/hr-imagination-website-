@@ -157,6 +157,8 @@ const createAudioFile = (hrefToUse) => {
 
 // Component to export 
 
+// add thin light dividers rather than bulky boxes 
+
 export const MusicContext = () => {
 
     
