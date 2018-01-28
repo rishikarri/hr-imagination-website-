@@ -184,14 +184,14 @@ export const About = () => {
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}><a style={{color: 'purple'}} target="_blank" href="http://rishikarri.com">Software Development </a></li>
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Tennis</li> 
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}><a style={{color: 'purple'}} target="_blank" href="http://rishikarri.com/#interests">Reading </a></li>
-                <li style={{fontWeigduht: 800, fontSize: 14, color: 'purple'}}>Spanish </li>
+                <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Spanish  </li>
                 <li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Traveling </li>
               </p>
             </div>
           </div>
         </div>
 
-        <div className='col-xs-12' style={{color: 'green', fontSize: 16, marginTop: 140, textAlign: 'center'}}> 
+        <div className='col-xs-12' style={{color: 'green', fontSize: 20, marginTop: 140, textAlign: 'center'}}> 
           <div>We write under the stage-name HR Imagination for a few different reasons: </div>
           <div>&nbsp;</div>
             <ul>
