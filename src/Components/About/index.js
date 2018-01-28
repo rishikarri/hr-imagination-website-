@@ -117,7 +117,17 @@ export const About = () => {
       <div className='row'>
         <div className='row' style={styles.about} className='col-xs-12'> 
           <div className='col-xs-12' style={styles.musicText}> About </div>
-          <div className='col-xs-12' style={styles.descriptionText}> hi hi </div>
+          <div className='col-xs-12' style={styles.descriptionText}></div>
+          <div className='col-xs-12' style={{}}> 
+                          <div>We write under the stage-name HR Imagination for a few different reasons: </div>
+
+            <ul>
+              <li>Most of our songs are written about fictional characters that are merely figments of “HR Imagination”. Characters that are relatable, good-intentioned, flawed, human. </li>
+              <li>We started pursuing music as a group while rooming together at college (University of Wisconsin - Madison). School came first for both of us and we never prioritized music. We would throw an hour here and an hour there into our makeshift studio. These hours were treasured, viewed as time to break free of analytical thinking, moments void of rational decision making, a place where we could dream. A place where we could imagine.</li>
+              <li>H & R are the first initials of our names.   </li>
+              <li>WE write </li>
+            </ul>
+           </div>
 
         </div>
 
