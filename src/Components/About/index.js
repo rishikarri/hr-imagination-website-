@@ -35,6 +35,15 @@ const styles = {
     height: 200,
     backgroundColor: 'rgba(230, 230, 230, 0.5)',
   },
+  descriptionText: {
+    color: 'purple',
+    fontSize: 32, 
+    textAlign: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 150,
+  },
   bigLetter: {
     fontSize: 120,
     color: 'green',    
@@ -108,6 +117,8 @@ export const About = () => {
       <div className='row'>
         <div className='row' style={styles.about} className='col-xs-12'> 
           <div className='col-xs-12' style={styles.musicText}> About </div>
+          <div className='col-xs-12' style={styles.descriptionText}> hi hi </div>
+
         </div>
 
         <div className='row'> 
