@@ -42,7 +42,7 @@ const styles = {
 // --------------------------------------Function To Export ---------------------------------------
 
 const RotatingGreeter = () => (  
-	<div style={styles.hrImaginationWrapper} className='row'> 
+	<div className='row'> 
 		<div style={styles.greetingWrapper} className='col-xs-12'> 
 			<RotatingLetter numRotations={3} color="purple"> H </RotatingLetter>
 			<RotatingLetter> R </RotatingLetter>
