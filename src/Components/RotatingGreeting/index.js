@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 import styled, { keyframes } from "styled-components";
+
+// This component exports a landing page which displays a rotating "HR IMAGINATION" to the user 
 
 // --------------------------------------Global Variables ---------------------------------------
 
 
-// Use Styled Components package to build a styled div that rotates whatever letter is in it 
-// Each RotatingLetter should be able to render 
+// Use Styled Components package to build a styled div that rotates whatever string it is passed
+// Build rotating later such that you can pass color and number of rotations as props and it will render dynamically
 
 const rotatingAnimation = keyframes`
     from { transform: rotate(0deg); }
@@ -22,6 +24,8 @@ const RotatingLetter = styled.div`
   animation: ${(props) => props.numRotations ? `${rotatingAnimation} 1.4s linear ${props.numRotations}` : `${rotatingAnimation} 1.4s linear 2`};
 `;
 
+// styles for wrapper 
+
 const styles = {
 	greetingWrapper: {
 		height: 600,
@@ -33,7 +37,7 @@ const styles = {
 
 // function to export
 
-export const RotatingGreeter = () => (  
+const RotatingGreeter = () => (  
 	<div style={styles.hrImaginationWrapper} className='row'> 
 		<div style={styles.greetingWrapper} className='col-xs-12'> 
 			<RotatingLetter numRotations={3} color="purple"> H </RotatingLetter>
@@ -55,3 +59,4 @@ export const RotatingGreeter = () => (
 );        
 
 
+export default RotatingGreeter; 

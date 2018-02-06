@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import TopNavBar from '../src/Components/TopNavBar/'
 import styled, { keyframes } from 'styled-components';
-import { RotatingGreeter } from '../src/Components/RotatingGreeting/';
+import RotatingGreeter from '../src/Components/RotatingGreeting/';
 import{ MusicContext } from '../src/Components/MusicSectionContext/';
 import { About } from '../src/Components/About/';
 import { Contact } from '../src/Components/Contact/';
