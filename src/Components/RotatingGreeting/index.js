@@ -1,10 +1,13 @@
-import React, { Component } from 'react';
-import styled, { keyframes } from 'styled-components';
+import React from 'react';
+import styled, { keyframes } from "styled-components";
 
 // --------------------------------------Global Variables ---------------------------------------
 
-const rotatingAnimation = keyframes`
 
+// Use Styled Components package to build a styled div that rotates whatever letter is in it 
+// Each RotatingLetter should be able to render 
+
+const rotatingAnimation = keyframes`
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
@@ -12,81 +15,43 @@ const rotatingAnimation = keyframes`
 
 const RotatingLetter = styled.div`
   display: inline-block;
-  color: ${(props) => props.color ? `solid 9px ${props.color}` : 'solid 9px red'}; 
+  color: ${(props) => props.color ? props.color : "green"}; 
+  font-size: 28px;
   height: 60px;
   width: 60px;  
-  animation: ${(props) => props.blinkRate ? `${rotatingAnimation} ${props.blinkRate} normal forwards` : `${rotatingAnimation} 1.4s linear 2`};
+  animation: ${(props) => props.numRotations ? `${rotatingAnimation} 1.4s linear ${props.numRotations}` : `${rotatingAnimation} 1.4s linear 2`};
 `;
 
 const styles = {
-  'hrImaginationWrapper' : {
-             
-  },
-  hrImaginationText: {
-    color: 'green',
-    fontSize: 28,
-    height: 600,
-    textAlign: 'center',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  musicText: {
-    color: 'purple',
-    fontSize: 32, 
-    textAlign: 'center',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: 200,
-    backgroundColor: 'rgba(230, 230, 230, 0.5)',
-  },
-
-  songTitle: {
-    fontSize: 20,
-    color: 'green',
-    display: 'block', 
-    textAlign: 'center',
-    // display: 'flex',
-    // justifyContent: 'center',
-    alignItems: 'center',
-    height: 100,
-  },
-  summary: {
-    textAlign: 'center',
-    padding: 0,
-  },
-
-  sound: {
-    textAlign: 'center',
-  },
-}
-
-
-// Component to export 
-
-export const RotatingGreeter = () => {
-
-    
-    return (
-        <div style={styles.hrImaginationWrapper} className='row'> 
-          <div style={styles.hrImaginationText} className='col-xs-12'> 
-            <RotatingLetter> H </RotatingLetter>
-            <RotatingLetter> R </RotatingLetter>
-            <RotatingLetter> &nbsp; </RotatingLetter>
-            <RotatingLetter> I </RotatingLetter>
-            <RotatingLetter> m </RotatingLetter>
-            <RotatingLetter> a </RotatingLetter>
-            <RotatingLetter> g </RotatingLetter>
-            <RotatingLetter> i </RotatingLetter>
-            <RotatingLetter> n </RotatingLetter>
-            <RotatingLetter> a </RotatingLetter>
-            <RotatingLetter> t </RotatingLetter>
-            <RotatingLetter> i </RotatingLetter>
-            <RotatingLetter> o </RotatingLetter>
-            <RotatingLetter> n </RotatingLetter>          
-          </div>        
-        </div>
-    );        
+	greetingWrapper: {
+		height: 600,
+		display: 'flex',
+		justifyContent: 'center',
+		alignItems: 'center',
+	},  
 };
+
+// function to export
+
+export const RotatingGreeter = () => (  
+	<div style={styles.hrImaginationWrapper} className='row'> 
+		<div style={styles.greetingWrapper} className='col-xs-12'> 
+			<RotatingLetter numRotations={3} color="purple"> H </RotatingLetter>
+			<RotatingLetter> R </RotatingLetter>
+			<RotatingLetter> &nbsp; </RotatingLetter>
+			<RotatingLetter numRotations={3} color="purple"> I </RotatingLetter>
+			<RotatingLetter> m </RotatingLetter>
+			<RotatingLetter numRotations={3} color="purple"> a </RotatingLetter>
+			<RotatingLetter> g </RotatingLetter>
+			<RotatingLetter numRotations={3} color="purple"> i </RotatingLetter>
+			<RotatingLetter> n </RotatingLetter>
+			<RotatingLetter numRotations={3} color="purple"> a </RotatingLetter>
+			<RotatingLetter> t </RotatingLetter>
+			<RotatingLetter numRotations={3} color="purple"> i </RotatingLetter>
+			<RotatingLetter> o </RotatingLetter>
+			<RotatingLetter numRotations={3} color="purple"> n </RotatingLetter>          
+		</div>        
+	</div>
+);        
+
 
