@@ -7,13 +7,17 @@ import styled, { keyframes } from "styled-components";
 
 
 // Use Styled Components package to build a styled div that rotates whatever string it is passed
-// Build rotating later such that you can pass color and number of rotations as props and it will render dynamically
 
+
+// create rotation animation
 const rotatingAnimation = keyframes`
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
 `;
+
+// Build RotatingLetter such that you can pass a color and a number of rotations as props and have the letter render dynamically
+// Use the ternary operator as a conditional - if the user doesn't pass in a color or number of rotations, default to green and 2 respectively
 
 const RotatingLetter = styled.div`
   display: inline-block;
@@ -24,18 +28,18 @@ const RotatingLetter = styled.div`
   animation: ${(props) => props.numRotations ? `${rotatingAnimation} 1.4s linear ${props.numRotations}` : `${rotatingAnimation} 1.4s linear 2`};
 `;
 
-// styles for wrapper 
+// styles for wrapper of text 
 
 const styles = {
 	greetingWrapper: {
 		height: 600,
-		display: 'flex',
-		justifyContent: 'center',
-		alignItems: 'center',
+		display: "flex",
+		justifyContent: "center",
+		alignItems: "center",
 	},  
 };
 
-// function to export
+// --------------------------------------Function To Export ---------------------------------------
 
 const RotatingGreeter = () => (  
 	<div style={styles.hrImaginationWrapper} className='row'> 
